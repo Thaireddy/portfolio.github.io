@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+<body bgcolor="red">
+    <form action="">
+        <fieldset>
+            <legend><h1>Personal-Details</h1></legend><br><br>
+            <label for=""><h2>Student Details</h2></label>
+            <label for="First Name">First Name:</label><br><br>
+            <input type="text" id="First Name" required pattern="[A-Za-z]{3,15}"><br><br>
+            <label for="Middle Name">Middle Name:</label><br><br>
+            <input type="text" id="Middle Name" required pattern="[A-Za-z]{3,15}"><br><br>
+            <label for="Last Name">Last Name:</label><br><br>
+            <input type="text" id="Last Name" required pattern="[A-Za-z]{3,15}"><br><br>
+            <label for="DOB">DOB:</label><br><br>
+            <input type="date" id="DOB" required><br><br>
+            <label for="E-Mail">E-Mail:</label><br><br>
+            <input type="E-Mail" id="E-Mail" required><br><br>
+            <label for="Phone NUmber">Phone Number:</label><br><br>
+            <input type="text" id="Phone Number" required pattern="[6-9]{1}[0-9]{9}"><br><br>
+            <label for="Gender">Gender</label><br><br>
+            <input type="radio" id="Male" name="Gender">
+            <label for="Male">Male</label><br><br>
+            <input type="radio" id="Female" name="Gender">
+            <label for="Female">Female</label><br><br>
+            <input type="radio" id="Others" name="Gender">
+            <label for="Others">Others</label>
+        </fieldset><br><br>
+        <fieldset>
+            <legend><h1>Educational Details</h1></legend><br><br>
+            <label for=""><h2>Department-Details</h2></label><br><br>
+            <input type="radio" id="Computer Science Engineering" name="Department Details">
+            <label for="Computer Science Engineering">Computer Science Engineering</label><br><br>
+            <input type="radio" id="Mechanical Engineering" name="Department Details">
+            <label for="Mechanical Engineering">Mechanical Engineering</label><br><br>
+            <input type="radio" id="Electronics and Communication Engineering" name="Department Details">
+            <label for="Electronics and Communication Engineering">Electronics and Communication Engineering</label><br><br>
+            <input type="radio" id="Civil Engineering" name="Department Details">
+            <label for="Civil Engineering">Civil Engineering</label><br><br>
+            <input type="radio" id="Electrical Engineering" name="Department Details">
+            <label for="Electrical Engineering">Electrical Engineering</label><br><br>
+            <input type="radio" id="Aeronautical Engineering" name="Department Details">
+            <label for="Aeronautical Engineering">Aeronautical Engineering</label><br><br>
+            <input type="radio" id="Biotechnology Engineering" name="Department Details>
+            <label for="Biotechnology Engineering">Biotechnology Engineering</label><br><br>
+            <label for=""><h1>Year Of Passed Out</h1></label><br>
+            <input list="Year Of Passed Out">
+            <datalist id="Year Of Passed Out">
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend><h1>BackEnd Required Skills</h1></legend>
+            <label for="">Skills</label><br><br>
+            <input type="checkbox" id="JAVA">
+            <label for="JAVA">JAVA</label><br><br>
+            <input type="checkbox" id="SQL">
+            <label for="SQL">SQL</label><br><br>
+            <input type="checkbox" id="PYTHON">
+            <label for="PYTHON">PYTHON</label><br><br>
+            <input type="checkbox" id="C">
+            <label for="C">C</label>
+        </fieldset>
+        <fieldset>
+            <legend><h1>FrontEnd Required Skills</h1></legend>
+            <label for="">Skills</label><br><br>
+            <input type="checkbox" id="HTML">
+            <label for="HTML">HTML</label><br><br>
+            <input type="checkbox" id="CSS">
+            <label for="CSS">CSS</label><br><br>
+            <input type="checkbox" id="JAVA SCRIPT">
+            <label for="JAVA SCRIPT">JAVA SCRIPT</label>
+        </fieldset><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
